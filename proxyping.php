@@ -7,6 +7,8 @@ header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
 header('Cache-Control: no-cache, must-revalidate');
 header('Pragma: no-cache');
 
+//$num - ilosc liczb
+//$min, $max - od do
 $num = 1;
 $min = 1;
 $max = 100;
